@@ -16,7 +16,8 @@ public class Locator extends Base{
 		driver.findElement(By.cssSelector("button[id='button-one']"));//.click();;
 		
 		
-	//	/html/body/section/div/div/div[2]/div[1]/div/div[2]/form/button
+	//	/html/body/section/div/div/div[2]/div[1]/div/div[2]/form/button absolute xpath
+		//relative xpath
 		driver.findElement(By.xpath("//button[@id='button-one']"));
 		driver.findElement(By.xpath("//button[text()='Show Message']"));
 		driver.findElement(By.xpath("//button[starts-with(text(),'Show ')]"));

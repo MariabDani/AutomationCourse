@@ -12,6 +12,12 @@ public class Base {
 		driver= new ChromeDriver();
 		driver.get("https://selenium.qabible.in");
 		driver.manage().window().maximize();
+//		try {
+//			Thread.sleep(3000);
+//		} catch (InterruptedException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
 	}
 	
 	public void driverClose()

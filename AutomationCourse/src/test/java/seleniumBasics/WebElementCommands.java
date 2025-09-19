@@ -14,6 +14,11 @@ public class WebElementCommands extends Base{
 		showMessageBtn.click();
 		WebElement messageTxt= driver.findElement(By.xpath("//div[starts-with(text(),'Your')]"));
 		System.out.println(messageTxt.getText());
+		System.out.println(messageTxt.isDisplayed());
+		System.out.println(messageTxtBox.getTagName());
+		System.out.println(messageTxtBox.isEnabled());
+		System.out.println(showMessageBtn.getCssValue("border-color"));
+		messageTxtBox.clear();
 	}
 	
 
