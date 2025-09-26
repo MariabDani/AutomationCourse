@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-26T13:26:45 BST" name="Default suite" finished-at="2025-09-26T13:26:47 BST" duration-ms="2372">
+    <groups>
+    </groups>
+    <test started-at="2025-09-26T13:26:45 BST" name="Default test" finished-at="2025-09-26T13:26:47 BST" duration-ms="2372">
+      <class name="testScripts.LoginTest">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testScripts.LoginTest@3c19aaa5]" started-at="2025-09-26T13:26:45 BST" name="initializeBrowser" finished-at="2025-09-26T13:26:47 BST" duration-ms="2051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyLoginInvalidUserNameValidPassword()[pri:0, instance:testScripts.LoginTest@3c19aaa5]" started-at="2025-09-26T13:26:47 BST" name="verifyLoginInvalidUserNameValidPassword" finished-at="2025-09-26T13:26:47 BST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginInvalidUserNameValidPassword -->
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:testScripts.LoginTest@3c19aaa5]" started-at="2025-09-26T13:26:47 BST" name="driverClose" finished-at="2025-09-26T13:26:47 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+      </class> <!-- testScripts.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
