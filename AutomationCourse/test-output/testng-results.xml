@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-26T16:30:26 BST" name="Default suite" finished-at="2025-09-26T16:30:30 BST" duration-ms="4788">
+  <suite started-at="2025-09-29T16:33:36 BST" name="Default suite" finished-at="2025-09-29T16:33:38 BST" duration-ms="2560">
     <groups>
     </groups>
-    <test started-at="2025-09-26T16:30:26 BST" name="Default test" finished-at="2025-09-26T16:30:30 BST" duration-ms="4788">
+    <test started-at="2025-09-29T16:33:36 BST" name="Default test" finished-at="2025-09-29T16:33:38 BST" duration-ms="2560">
       <class name="testScripts.LoginTest">
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testScripts.LoginTest@3c19aaa5]" started-at="2025-09-26T16:30:26 BST" name="initializeBrowser" finished-at="2025-09-26T16:30:29 BST" duration-ms="3409" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testScripts.LoginTest@459e9125]" started-at="2025-09-29T16:33:36 BST" name="initializeBrowser" finished-at="2025-09-29T16:33:37 BST" duration-ms="1613" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="verifyLoginWithValidCredentials()[pri:0, instance:testScripts.LoginTest@3c19aaa5]" started-at="2025-09-26T16:30:29 BST" name="verifyLoginWithValidCredentials" finished-at="2025-09-26T16:30:30 BST" duration-ms="1264" status="PASS">
+        <test-method signature="verifyLoginWithInvalidCredentials()[pri:0, instance:testScripts.LoginTest@459e9125]" started-at="2025-09-29T16:33:37 BST" name="verifyLoginWithInvalidCredentials" finished-at="2025-09-29T16:33:38 BST" duration-ms="910" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginWithValidCredentials -->
-        <test-method is-config="true" signature="driverClose()[pri:0, instance:testScripts.LoginTest@3c19aaa5]" started-at="2025-09-26T16:30:30 BST" name="driverClose" finished-at="2025-09-26T16:30:30 BST" duration-ms="3" status="PASS">
+        </test-method> <!-- verifyLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:testScripts.LoginTest@459e9125]" started-at="2025-09-29T16:33:38 BST" name="driverClose" finished-at="2025-09-29T16:33:38 BST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverClose -->
